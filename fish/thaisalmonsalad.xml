@@ -19,6 +19,9 @@ Blanche the beans and mix with the other greens. Make a dressing with the lime, 
 Cook the noodles and flavour with the OXO, some soy, salt and sesame oil. Mix in with the salad.
 
 Chunk the salmon with sesame oil, some leftover stock from the noodles, a squeeze of lime and black pepper. Microwave covered for about 3 - 4 minutes...</content1>
+        <content2 datatype="text" friendlyname="Right content">{CMS_CONTENT2}</content2>
+        <content3 datatype="image" friendlyname="Right hand image">{CMS_CONTENT3}</content3>
+        <content4 datatype="image" friendlyname="Content title image">{CMS_CONTENT4}</content4>
         
     </content>
 </doc>

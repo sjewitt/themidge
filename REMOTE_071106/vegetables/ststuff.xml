@@ -1,17 +1,0 @@
-<?xml version="1.0" encoding="windows-1250"?>
-<doc>
-    <defaults>
-        <defaultpage datatype="core" friendlyname="">index.pl</defaultpage>
-    </defaults>
-    <metadata>
-        <pagetitle datatype="property" friendlyname="Page title">Stuffed Stuff</pagetitle>
-        <linktext datatype="property" friendlyname="Page linktext">Stuffed Stuff</linktext>
-        <keywords datatype="property" friendlyname="Keyword list">vegetables,mushrooms,cous-cous</keywords>
-        <description datatype="property" friendlyname="Page description">Vegetables stuffed with stuff</description>
-        <author datatype="property" friendlyname="Page author">silas</author>
-    </metadata>
-    <content>
-        <content1 datatype="text" friendlyname="Body"><strong>Ingredients:</strong><img src="/images/ststuff.jpg" align="right"/><em>Cous-cous4 large field mushroomsBaby SweetcornBaby courgette1 onion2 sweet peppersChicken OXO cubeGarlic granulesGarden herbsOlive oilButter</em>To Make:Chop onion and gently sweat down with oregano, some olive oil and a very small amount of butter. Make cous-cous with chicken stock cube for flavour - DON'T use too much water...When the onions have started to sweat down, add VERY finely chopped courgette and sweetcorn. Cook on a low heat for about 15 minutes until everything is sweetened and tender.Finely chop a handful of garden herbs, and mix in with cous-cous along with the fried onions. Mix till all nice...[Send muggins to supermarket to get Pinot Grigiot]Carefully cut the peppers in half, cutting through the middle of the stalk. Remove all seeds and that big thick knobbly bit that has all the seeds attached ;-). Carefully remove the stalk from the middle of the mushrooms as well.Stuff stuff wiv cous-cous. (get your 'ands in - its a bit easier). Also, you might want to use a small amount of olive oil to bind the cous-cous. Sprinkle with grated parmisan (as much as you think is appropriate...) put in oven on 170<sup>0</sup>C for about 20 minutes, or until mushes are cooked.Serve with whatever you like meat-wise (reccommend pork chops)Enjoy</content1>
-        
-    </content>
-</doc>

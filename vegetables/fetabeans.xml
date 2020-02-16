@@ -16,6 +16,9 @@
 Roughly chop a block of feta cheese. 
 
 Drain the beans and put into a bowl with the feta, a generous glug of extra virgin olive oil and a handful of chopped fresh basil. Delicious.</content1>
+        <content2 datatype="text" friendlyname="Right content">{CMS_CONTENT2}</content2>
+        <content3 datatype="image" friendlyname="Right hand image">{CMS_CONTENT3}</content3>
+        <content4 datatype="image" friendlyname="Content title image">{CMS_CONTENT4}</content4>
         
     </content>
 </doc>

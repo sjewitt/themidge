@@ -1,37 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<head>
-<title>{CMS_PAGETITLE}</title>
-<link rel="stylesheet" href="/styles/style.css" type="text/css">
-<script language="JavaScript" src="/script/edit.js"></script>
-<meta name="keywords"       content="{CMS_KEYWORDS}">
-<meta name="description"    content="{CMS_DESCRIPTION}">
-<meta name="author"         content="{CMS_AUTHOR}">
-</head>
-<body>
-  <table width="100%" cellspacing="0" cellpadding="0" border="0">
-    <tr height="25">
-        <td class="title" height="0">{CMS_PAGETITLE}</td>
-        <td></td>
-    </tr>
-    {CMS_EDITLINK}
-    <tr>
-        <form name="search" method="get" action="/search.pl">
-        <td class="content">{CMS_HOMELINK}{CMS_TOPNAV}<br />
-        Find: <input type="text" name="qt" value="{CMS_QT}"><input type="submit" value="go">
-        </td>
-        <td width="125" class="menutop" style="vertical-align:top;"></td>
+  <head>
+    <title>{CMS_PAGETITLE}</title>
+    <link rel="stylesheet" href="/styles/coven.css" type="text/css">
+    <script language="JavaScript" src="/script/edit.js"></script>
+    
+    <meta name="keywords"       content="{CMS_KEYWORDS}">
+    <meta name="description"    content="{CMS_DESCRIPTION}">
+    <meta name="author"         content="{CMS_AUTHOR}">
+    <script language="javascript">
+      //nav array:
+      {CMS_JSNAVARRAY}
+    </script>
+    <script language="JavaScript" src="/script/lib.js"></script>
+  </head>
+  <body>
+
+
+    <div class="contentlogo"></div>
+    <div class="contentheader">
+      <div class="thumbheader"><!-- {CMS_PAGETITLE} --></div>
+      {CMS_CONTENT3}<!-- thumbnail image -->
+    </div>
+
+    <!-- sub page content -->
+    <div class="content">
+      {CMS_EDITLINK}   
+    <div class="pageheader"><!-- {CMS_CONTENT4} -->{CMS_PAGETITLE}</div><!-- title -->
+      <span class="col1">
+<font face="Verdana, Arial, Helvetica, sans-serif">
+{CMS_CONTENT1}  <!-- LH text -->
+</font>
+</span>
+<span class="col2">
+{CMS_CONTENT2}  <!-- RH text -->
+</span>
+    </div>
+    
+    <!-- link to homepage -->
+    <div class="homelink"><a href="/" title="Back to homepage"><img src="/images/transpacer.gif" width="150" height="30"></a></div>
+    
+    <!-- LH nav -->
+
+<script language="javascript">
+document.write(getprimarynav("{CMS_CURRPATH}"));
+</script>
+
+    <!-- RH nav -->
+    <div class="contentsubnav">
+    <script>
+      document.write(getNav('{CMS_CURRPATH}nav','{ENV_SCRIPT_NAME}','{CMS_PAGETITLE}'));
+    </script>
+    <p>
+    <form name="search" method="get" action="/search.pl">
+        Search&nbsp;for: <input type="text" name="qt" value="{CMS_QT}"><input type="submit" value="go">
         </form>
-    </tr>
-    <tr>
-        <td class="content">
-            
-            {CMS_CONTENT1}
-        </td>
-        <td width="125" class="menutop" style="vertical-align:top;">
-            {CMS_LHNAV}
-        </td>
-    </tr>
-</table>
-</body>
+    </div>
+    </p>
+  </body>
 </html>
-        
+
+

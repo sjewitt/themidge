@@ -14,6 +14,8 @@
     </metadata>
     <content>
         <content1 datatype="text" friendlyname="Body">[placeholder]</content1>
-        
+        <content2 datatype="text" friendlyname="Right content">{CMS_CONTENT2}</content2>
+        <content3 datatype="image" friendlyname="Right hand image">{CMS_CONTENT3}</content3>
+        <content4 datatype="image" friendlyname="Content title image">title_chicken.gif</content4>
     </content>
 </doc>

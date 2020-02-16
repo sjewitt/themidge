@@ -28,6 +28,9 @@ Add salt and pepper, lemon juice and the anchovy essence, then combine together 
 Take three shallow dishes. Put teh flour in the first bowl, the beaten eggs in the second and the rest of the breadcrumbs in the third.
 
 Take a small handful of the mixture and form into a ball andthen flatten until it is around an inch thick. (quick tip: coat your hands thoroughly with the flour first, to stop the mixture sticking). If your mixture is not 'wet' enough to bind, add a little of the egg mixture. Dip the fishcakes first in the flour, then the egg and then into the breadcrumbs until it's covered all over. Place the fishcake onto a greased baking tray. Repeat this until you've run out of mixture and bake in an oven at 220<sup>0</sup>C for 25 minutes.</content1>
-        
+        <content2 datatype="text" friendlyname="Right content">{CMS_CONTENT2}</content2>
+        <content3 datatype="image" friendlyname="Right hand image">{CMS_CONTENT3}</content3>
+        <content4 datatype="image" friendlyname="Content title image">{CMS_CONTENT4}</content4>
+
     </content>
 </doc>

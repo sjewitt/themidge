@@ -7,6 +7,9 @@ $incfile3 = $document_root . "include/subs_xml.pl";
 $incfile4 = $document_root . "include/subs_string.pl";
 $incfile5 = $document_root . "include/subs_render.pl";
 $incfile6 = $document_root . "include/subs_config.pl";
+$incfile7 = $document_root . "include/subs_auth.pl";
+$incfile8 = $document_root . "include/subs_http.pl";
+$incfile_edit = $document_root . "include/subs_edit.pl";
 
 require $incfile1;
 require $incfile2;
@@ -14,6 +17,9 @@ require $incfile3;
 require $incfile4;
 require $incfile5;
 require $incfile6;
+require $incfile7;
+require $incfile8;
+require $incfile_edit;
 
 #check for no auth and redirect if no login:
 if(getAuth() eq false)
@@ -29,10 +35,10 @@ print "Content-type: text/html\r\n\r\n";
 if(length($FORM{"fname"}) eq 0)
 {
   #set up the form radio buttons for path using the global config directories array:
-  $path_radio_buttons = "<input type=\"radio\" name=\"path\" value=\"/\">/<br />\n";
+  #$path_radio_buttons = "<input type=\"radio\" name=\"path\" value=\"/\">/<br />\n";
   for(my $a = 0; $a < scalar(@SITE_SECTIONS); $a++)
   {
-    $path_radio_buttons .= "<input type=\"radio\" name=\"path\" value=\"/" . $SITE_SECTIONS[$a]{path} . "/\">/" . $SITE_SECTIONS[$a]{path} . "/<br />\n";
+    $path_radio_buttons .= "<input type=\"radio\" name=\"path\" value=\"/" . $SITE_SECTIONS[$a]{path} . "/\">/" . $SITE_SECTIONS[$a]{path} . "<br />\n";
   }
 }
 
@@ -180,10 +186,10 @@ if(getUserAuth($RIGHTS_CREATE) eq true || getUserProperty("rights") eq $RIGHTS_A
                   <td>HTML keywords: (nnn,nnn,nnn)</td>
                   <td><input type="text" name="keywords" value="$keywords"></td>
               </tr>
-              <tr>
+              <!-- tr>
                   <td>HTML Author:</td>
                   <td><input type="text" name="author" value="$author"></td>
-              </tr>
+              </tr -->
               <tr>
                   <td valign="top"><b>Path:</b></td>
                   <td>

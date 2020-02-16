@@ -27,6 +27,9 @@ Put it all in a big jug and stir.
 
 Fill 4 glasses with ice. Pour in the glasses. Put glass gently to lips, drink. Repeat several times. Fall over.
 </content1>
+        <content2 datatype="text" friendlyname="Right content">{CMS_CONTENT2}</content2>
+        <content3 datatype="image" friendlyname="Right hand image">{CMS_CONTENT3}</content3>
+        <content4 datatype="image" friendlyname="Content title image">{CMS_CONTENT4}</content4>
         
     </content>
 </doc>

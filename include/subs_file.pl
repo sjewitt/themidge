@@ -123,7 +123,7 @@ sub logger
   my $file      = "logfile.log";
   
   open (LOGFILE, ">>" .$root . $file || die "Cannot open logfile...");
-  print LOGFILE $logstring . "\n";
+  print LOGFILE localtime() . "\tFILE:\t$ENV{SCRIPT_NAME}\tMESSAGE: " . $logstring . "\n";
   close LOGFILE;
   
 }

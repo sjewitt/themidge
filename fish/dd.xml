@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<doc>
+    <defaults>
+        <defaultpage datatype="core" friendlyname="">index</defaultpage>
+        <layoutpage datatype="core" friendlyname=""></layoutpage>
+        <owner datatype="core" friendlyname="">silas</owner>
+    </defaults>
+    <metadata>
+        <pagetitle datatype="property" friendlyname="Page title">dd</pagetitle>
+        <linktext datatype="property" friendlyname="Page linktext">dd</linktext>
+        <keywords datatype="property" friendlyname="Keyword list">dd</keywords>
+        <description datatype="property" friendlyname="Page description">dd</description>
+        <author datatype="property" friendlyname="Page author">silas</author>
+    </metadata>
+    <content>
+        <content1 datatype="text" friendlyname="Body content">test</content1>
+        <content2 datatype="text" friendlyname="Right content">{CMS_CONTENT2}</content2>
+        <content3 datatype="image" friendlyname="Right hand image">{CMS_CONTENT3}</content3>
+        <content4 datatype="image" friendlyname="Content title image">{CMS_CONTENT4}</content4>
+        <!-- content5 datatype="text" friendlyname="">{CMS_CONTENT5}</content5>
+        <content6 datatype="string" friendlyname="Right content title">{CMS_CONTENT6}</content6>
+        <content7 datatype="text" friendlyname="Right content">{CMS_CONTENT7}</content7 -->
+    </content>
+</doc>

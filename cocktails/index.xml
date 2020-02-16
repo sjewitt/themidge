@@ -14,6 +14,9 @@
     </metadata>
     <content>
         <content1 datatype="text" friendlyname="Body">We all know, booze is great. And what's better than mixing up your favourite tipples with a fresh juices and herbs. Go on - play around - drink irresponsibly! </content1>
+        <content2 datatype="text" friendlyname="Right content">{CMS_CONTENT2}</content2>
+        <content3 datatype="image" friendlyname="Right hand image">{CMS_CONTENT3}</content3>
+        <content4 datatype="image" friendlyname="Content title image">{CMS_CONTENT4}</content4>
         
     </content>
 </doc>

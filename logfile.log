@@ -1,20 +1,933 @@
-CURRENT USER: false
-CURRENT USER: false
-posted data: user
-posted data: pwd
-CURRENT USER: false
-CURRENT USER: false
-posted data: user=silas
-posted data: pwd=h154lon
-CURRENT USER: false
-CURRENT USER: false
-posted data: user=silas
-posted data: pwd=h154lon
-CURRENT USER: false
-CURRENT USER: false
-posted data: user=clare
-posted data: pwd=clareix
-CURRENT USER: false
-CURRENT USER: false
-posted data: user=silas
-posted data: pwd=h154lon
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+test test
+Sat Jun 10 14:54:10 2006	FILE:	/test.pl	MESSAGE: test test
+Sat Jun 10 14:54:24 2006	FILE:	/test.pl	MESSAGE: test test
+Sat Jun 10 14:54:24 2006	FILE:	/test.pl	MESSAGE: test test
+Sat Jun 10 14:54:25 2006	FILE:	/test.pl	MESSAGE: test test
+Sat Jun 10 14:54:26 2006	FILE:	/test.pl	MESSAGE: test test
+Sat Jun 10 14:54:27 2006	FILE:	/test.pl	MESSAGE: test test
+Sat Jun 10 14:54:28 2006	FILE:	/test.pl	MESSAGE: test test
+Sat Jun 10 15:01:49 2006	FILE:	/test.pl	MESSAGE: test testXXX
+Sat Jun 10 15:01:50 2006	FILE:	/test.pl	MESSAGE: test testXXX
+Sat Jun 10 15:06:54 2006	FILE:	/test.pl	MESSAGE: test testXXX
+Sat Jun 10 15:07:34 2006	FILE:	/test.pl	MESSAGE: test testXXX
+Sat Jun 10 15:08:09 2006	FILE:	/test.pl	MESSAGE: test testXXX
+Sat Jun 10 15:08:33 2006	FILE:	/test.pl	MESSAGE: test testXXX
+Sun Jun 11 13:53:49 2006	FILE:	/index.pl	MESSAGE: Content-type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>My home</title>
+    <link rel="stylesheet" href="/styles/coven.css" type="text/css">
+    <script language="JavaScript" src="/script/edit.js"></script>
+    <script type="text/javascript" language="javascript" src="/script/lib.js"></script>
+    <meta name="keywords"       content="desc">
+    <meta name="description"    content="desc">
+    <meta name="author"         content="desc">
+    <script language="javascript">
+      //nav array:
+      var primarynav = new Array();
+var homenav = new Array();primarynav[0] = {url: "/", linktext: "Home", image: "/images/_sml.jpg"};
+homenav[0] = {url: "/", linktext: "Home", image: "/images/.jpg"};
+primarynav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken_sml.jpg"};
+homenav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken.jpg"};
+primarynav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails_sml.jpg"};
+homenav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails.jpg"};
+primarynav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts_sml.jpg"};
+homenav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts.jpg"};
+primarynav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish_sml.jpg"};
+homenav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish.jpg"};
+primarynav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat_sml.jpg"};
+homenav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat.jpg"};
+primarynav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables_sml.jpg"};
+homenav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables.jpg"};
+var nav=new Object();
+nav.nav=new Array();
+nav.nav[0]=new Object();
+nav.nav[0].page={url: "//a.pl", linktext: "a"};
+nav.nav[1]=new Object();
+nav.nav[1].page={url: "//index.pl", linktext: "Home"};
+nav.nav[2]=new Object();
+nav.nav[2].page={url: "//search.pl", linktext: "Search"};
+nav.chickennav=new Array();
+nav.chickennav[0]=new Object();
+nav.chickennav[0].page={url: "/chicken/index.pl", linktext: "Chicken dishes"};
+nav.chickennav[1]=new Object();
+nav.chickennav[1].page={url: "/chicken/itchsalad.pl", linktext: "Chicken Salad"};
+nav.cocktailsnav=new Array();
+nav.cocktailsnav[0]=new Object();
+nav.cocktailsnav[0].page={url: "/cocktails/GingerAppleVod.pl", linktext: "Ginger Apple Vod"};
+nav.cocktailsnav[1]=new Object();
+nav.cocktailsnav[1].page={url: "/cocktails/index.pl", linktext: "Cocktails"};
+nav.dessertsnav=new Array();
+nav.dessertsnav[0]=new Object();
+nav.dessertsnav[0].page={url: "/desserts/index.pl", linktext: "Desserts"};
+nav.dessertsnav[1]=new Object();
+nav.dessertsnav[1].page={url: "/desserts/test.pl", linktext: "Ice Cream"};
+nav.fishnav=new Array();
+nav.fishnav[0]=new Object();
+nav.fishnav[0].page={url: "/fish/crispyfishcakes.pl", linktext: "Fish Cakes"};
+nav.fishnav[1]=new Object();
+nav.fishnav[1].page={url: "/fish/fishpie.pl", linktext: "Fish Pie"};
+nav.fishnav[2]=new Object();
+nav.fishnav[2].page={url: "/fish/index.pl", linktext: "Fish dishes"};
+nav.fishnav[3]=new Object();
+nav.fishnav[3].page={url: "/fish/thaisalmonsalad.pl", linktext: "Thai Salad"};
+nav.meatnav=new Array();
+nav.meatnav[0]=new Object();
+nav.meatnav[0].page={url: "/meat/index.pl", linktext: "Meat dishes"};
+nav.meatnav[1]=new Object();
+nav.meatnav[1].page={url: "/meat/kofte.pl", linktext: "Kofte"};
+nav.vegetablesnav=new Array();
+nav.vegetablesnav[0]=new Object();
+nav.vegetablesnav[0].page={url: "/vegetables/fetabeans.pl", linktext: "Fine Feta Beans"};
+nav.vegetablesnav[1]=new Object();
+nav.vegetablesnav[1].page={url: "/vegetables/index.pl", linktext: "Veg dishes"};
+
+    </script>
+  </head>
+  
+ <body class="background">
+ <span class="editlinks"></span>
+ <script language="javascript">
+ document.write(getHomepageNav());
+ </script>
+<div class="homepagecontent">
+Hello fellow foodies I'm not a proffesionally chef, just a keen <br />        amateur but I really love cooking and am lucky to have friends who really love eating what I cook.<br />My mum, herself an excellent cook, taught me how to cook when I was little. Mum's style of cooking is both eccentric <br />and traditional. She makes great meat and gravy based dishes, like stroganoff, beauf borgigone (I have no idea how to spell it!), <br />hungarian goulash but her signature dish HAS to be her chicken and mushroom pie.  My mother has a skill for pastry which I've <br />never managed duplicate - maybe when I'm older I'll develop the patience required!<br />I tend to make things up as I go along and fortunately, I normally like what I've made - I've only managed two utter <br />disasters in my culinary adventures - one was a version of chicken satay that you could carve, the other was lard pizza!  <br />I can also advise, never mix tahini with chicken - it's just not a good move.<br />Please feel free to use these recipes, pass them on, adjust them, mess them around - don't be afraid to experiment - <br />what's the worst that can happen? You have to throw it away and get a pizza... and the best - you get the satisfaction <br />of combining basic elements to create something really special.<br />Have fun.<br /><br />Clare       <br />      
+</div>
+</body> 
+</html>
+
+
+Sun Jun 11 13:56:06 2006	FILE:	/index.pl	MESSAGE: Getting HTML layout...
+Sun Jun 11 13:56:06 2006	FILE:	/index.pl	MESSAGE: Content-type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>My home</title>
+    <link rel="stylesheet" href="/styles/coven.css" type="text/css">
+    <script language="JavaScript" src="/script/edit.js"></script>
+    <script type="text/javascript" language="javascript" src="/script/lib.js"></script>
+    <meta name="keywords"       content="desc">
+    <meta name="description"    content="desc">
+    <meta name="author"         content="desc">
+    <script language="javascript">
+      //nav array:
+      var primarynav = new Array();
+var homenav = new Array();primarynav[0] = {url: "/", linktext: "Home", image: "/images/_sml.jpg"};
+homenav[0] = {url: "/", linktext: "Home", image: "/images/.jpg"};
+primarynav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken_sml.jpg"};
+homenav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken.jpg"};
+primarynav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails_sml.jpg"};
+homenav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails.jpg"};
+primarynav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts_sml.jpg"};
+homenav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts.jpg"};
+primarynav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish_sml.jpg"};
+homenav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish.jpg"};
+primarynav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat_sml.jpg"};
+homenav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat.jpg"};
+primarynav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables_sml.jpg"};
+homenav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables.jpg"};
+var nav=new Object();
+nav.nav=new Array();
+nav.nav[0]=new Object();
+nav.nav[0].page={url: "//a.pl", linktext: "a"};
+nav.nav[1]=new Object();
+nav.nav[1].page={url: "//index.pl", linktext: "Home"};
+nav.nav[2]=new Object();
+nav.nav[2].page={url: "//search.pl", linktext: "Search"};
+nav.chickennav=new Array();
+nav.chickennav[0]=new Object();
+nav.chickennav[0].page={url: "/chicken/index.pl", linktext: "Chicken dishes"};
+nav.chickennav[1]=new Object();
+nav.chickennav[1].page={url: "/chicken/itchsalad.pl", linktext: "Chicken Salad"};
+nav.cocktailsnav=new Array();
+nav.cocktailsnav[0]=new Object();
+nav.cocktailsnav[0].page={url: "/cocktails/GingerAppleVod.pl", linktext: "Ginger Apple Vod"};
+nav.cocktailsnav[1]=new Object();
+nav.cocktailsnav[1].page={url: "/cocktails/index.pl", linktext: "Cocktails"};
+nav.dessertsnav=new Array();
+nav.dessertsnav[0]=new Object();
+nav.dessertsnav[0].page={url: "/desserts/index.pl", linktext: "Desserts"};
+nav.dessertsnav[1]=new Object();
+nav.dessertsnav[1].page={url: "/desserts/test.pl", linktext: "Ice Cream"};
+nav.fishnav=new Array();
+nav.fishnav[0]=new Object();
+nav.fishnav[0].page={url: "/fish/crispyfishcakes.pl", linktext: "Fish Cakes"};
+nav.fishnav[1]=new Object();
+nav.fishnav[1].page={url: "/fish/fishpie.pl", linktext: "Fish Pie"};
+nav.fishnav[2]=new Object();
+nav.fishnav[2].page={url: "/fish/index.pl", linktext: "Fish dishes"};
+nav.fishnav[3]=new Object();
+nav.fishnav[3].page={url: "/fish/thaisalmonsalad.pl", linktext: "Thai Salad"};
+nav.meatnav=new Array();
+nav.meatnav[0]=new Object();
+nav.meatnav[0].page={url: "/meat/index.pl", linktext: "Meat dishes"};
+nav.meatnav[1]=new Object();
+nav.meatnav[1].page={url: "/meat/kofte.pl", linktext: "Kofte"};
+nav.vegetablesnav=new Array();
+nav.vegetablesnav[0]=new Object();
+nav.vegetablesnav[0].page={url: "/vegetables/fetabeans.pl", linktext: "Fine Feta Beans"};
+nav.vegetablesnav[1]=new Object();
+nav.vegetablesnav[1].page={url: "/vegetables/index.pl", linktext: "Veg dishes"};
+
+    </script>
+  </head>
+  
+ <body class="background">
+ <span class="editlinks"></span>
+ <script language="javascript">
+ document.write(getHomepageNav());
+ </script>
+<div class="homepagecontent">
+Hello fellow foodies I'm not a proffesionally chef, just a keen <br />        amateur but I really love cooking and am lucky to have friends who really love eating what I cook.<br />My mum, herself an excellent cook, taught me how to cook when I was little. Mum's style of cooking is both eccentric <br />and traditional. She makes great meat and gravy based dishes, like stroganoff, beauf borgigone (I have no idea how to spell it!), <br />hungarian goulash but her signature dish HAS to be her chicken and mushroom pie.  My mother has a skill for pastry which I've <br />never managed duplicate - maybe when I'm older I'll develop the patience required!<br />I tend to make things up as I go along and fortunately, I normally like what I've made - I've only managed two utter <br />disasters in my culinary adventures - one was a version of chicken satay that you could carve, the other was lard pizza!  <br />I can also advise, never mix tahini with chicken - it's just not a good move.<br />Please feel free to use these recipes, pass them on, adjust them, mess them around - don't be afraid to experiment - <br />what's the worst that can happen? You have to throw it away and get a pizza... and the best - you get the satisfaction <br />of combining basic elements to create something really special.<br />Have fun.<br /><br />Clare       <br />      
+</div>
+</body> 
+</html>
+
+
+Sun Jun 11 13:57:24 2006	FILE:	/chicken/index.pl	MESSAGE: Getting HTML layout...
+Sun Jun 11 13:57:24 2006	FILE:	/chicken/index.pl	MESSAGE: Content-type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Chicken dishes</title>
+    <link rel="stylesheet" href="/styles/coven.css" type="text/css">
+    <script language="JavaScript" src="/script/edit.js"></script>
+    
+    <meta name="keywords"       content="Chicken dishes">
+    <meta name="description"    content="Chicken dishes">
+    <meta name="author"         content="Chicken dishes">
+    <script language="javascript">
+      //nav array:
+      var primarynav = new Array();
+var homenav = new Array();primarynav[0] = {url: "/", linktext: "Home", image: "/images/_sml.jpg"};
+homenav[0] = {url: "/", linktext: "Home", image: "/images/.jpg"};
+primarynav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken_sml.jpg"};
+homenav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken.jpg"};
+primarynav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails_sml.jpg"};
+homenav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails.jpg"};
+primarynav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts_sml.jpg"};
+homenav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts.jpg"};
+primarynav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish_sml.jpg"};
+homenav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish.jpg"};
+primarynav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat_sml.jpg"};
+homenav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat.jpg"};
+primarynav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables_sml.jpg"};
+homenav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables.jpg"};
+var nav=new Object();
+nav.nav=new Array();
+nav.nav[0]=new Object();
+nav.nav[0].page={url: "//a.pl", linktext: "a"};
+nav.nav[1]=new Object();
+nav.nav[1].page={url: "//index.pl", linktext: "Home"};
+nav.nav[2]=new Object();
+nav.nav[2].page={url: "//search.pl", linktext: "Search"};
+nav.chickennav=new Array();
+nav.chickennav[0]=new Object();
+nav.chickennav[0].page={url: "/chicken/index.pl", linktext: "Chicken dishes"};
+nav.chickennav[1]=new Object();
+nav.chickennav[1].page={url: "/chicken/itchsalad.pl", linktext: "Chicken Salad"};
+nav.cocktailsnav=new Array();
+nav.cocktailsnav[0]=new Object();
+nav.cocktailsnav[0].page={url: "/cocktails/GingerAppleVod.pl", linktext: "Ginger Apple Vod"};
+nav.cocktailsnav[1]=new Object();
+nav.cocktailsnav[1].page={url: "/cocktails/index.pl", linktext: "Cocktails"};
+nav.dessertsnav=new Array();
+nav.dessertsnav[0]=new Object();
+nav.dessertsnav[0].page={url: "/desserts/index.pl", linktext: "Desserts"};
+nav.dessertsnav[1]=new Object();
+nav.dessertsnav[1].page={url: "/desserts/test.pl", linktext: "Ice Cream"};
+nav.fishnav=new Array();
+nav.fishnav[0]=new Object();
+nav.fishnav[0].page={url: "/fish/crispyfishcakes.pl", linktext: "Fish Cakes"};
+nav.fishnav[1]=new Object();
+nav.fishnav[1].page={url: "/fish/fishpie.pl", linktext: "Fish Pie"};
+nav.fishnav[2]=new Object();
+nav.fishnav[2].page={url: "/fish/index.pl", linktext: "Fish dishes"};
+nav.fishnav[3]=new Object();
+nav.fishnav[3].page={url: "/fish/thaisalmonsalad.pl", linktext: "Thai Salad"};
+nav.meatnav=new Array();
+nav.meatnav[0]=new Object();
+nav.meatnav[0].page={url: "/meat/index.pl", linktext: "Meat dishes"};
+nav.meatnav[1]=new Object();
+nav.meatnav[1].page={url: "/meat/kofte.pl", linktext: "Kofte"};
+nav.vegetablesnav=new Array();
+nav.vegetablesnav[0]=new Object();
+nav.vegetablesnav[0].page={url: "/vegetables/fetabeans.pl", linktext: "Fine Feta Beans"};
+nav.vegetablesnav[1]=new Object();
+nav.vegetablesnav[1].page={url: "/vegetables/index.pl", linktext: "Veg dishes"};
+
+    </script>
+    <script language="JavaScript" src="/script/lib.js"></script>
+  </head>
+  <body>
+
+
+    <div class="contentlogo"></div>
+    <div class="contentheader">
+      <div class="thumbheader"><!-- Chicken dishes --></div>
+      <img src="/images/{CMS_CONTENT3}"><!-- thumbnail image -->
+    </div>
+
+    <!-- sub page content -->
+    <div class="content">
+         
+    <div class="pageheader"><!-- <img src="/images/title_chicken.gif"> -->Chicken dishes</div><!-- title -->
+      <span class="col1">
+<font face="Verdana, Arial, Helvetica, sans-serif">
+[placeholder]  <!-- LH text -->
+</font>
+</span>
+<span class="col2">
+{CMS_CONTENT2}  <!-- RH text -->
+</span>
+    </div>
+    
+    <!-- link to homepage -->
+    <div class="homelink"><a href="/" title="Back to homepage"><img src="/images/transpacer.gif" width="150" height="30"></a></div>
+    
+    <!-- LH nav -->
+
+<script language="javascript">
+document.write(getprimarynav("chicken"));
+</script>
+
+    <!-- RH nav -->
+    <div class="contentsubnav">
+    <script>
+      document.write(getNav('chickennav','/chicken/index.pl','Chicken dishes'));
+    </script>
+    <p>
+    <form name="search" method="get" action="/search.pl">
+        Search&nbsp;for: <input type="text" name="qt" value=""><input type="submit" value="go">
+        </form>
+    </div>
+    </p>
+  </body>
+</html>
+
+
+
+Sun Jun 11 13:59:34 2006	FILE:	/index.pl	MESSAGE: Getting HTML layout...
+Sun Jun 11 13:59:34 2006	FILE:	/index.pl	MESSAGE: Content-type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>My home</title>
+    <link rel="stylesheet" href="/styles/coven.css" type="text/css">
+    <script language="JavaScript" src="/script/edit.js"></script>
+    <script type="text/javascript" language="javascript" src="/script/lib.js"></script>
+    <meta name="keywords"       content="desc">
+    <meta name="description"    content="desc">
+    <meta name="author"         content="desc">
+    <script language="javascript">
+      //nav array:
+      var primarynav = new Array();
+var homenav = new Array();primarynav[0] = {url: "/", linktext: "Home", image: "/images/_sml.jpg"};
+homenav[0] = {url: "/", linktext: "Home", image: "/images/.jpg"};
+primarynav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken_sml.jpg"};
+homenav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken.jpg"};
+primarynav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails_sml.jpg"};
+homenav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails.jpg"};
+primarynav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts_sml.jpg"};
+homenav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts.jpg"};
+primarynav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish_sml.jpg"};
+homenav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish.jpg"};
+primarynav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat_sml.jpg"};
+homenav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat.jpg"};
+primarynav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables_sml.jpg"};
+homenav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables.jpg"};
+var nav=new Object();
+nav.nav=new Array();
+nav.nav[0]=new Object();
+nav.nav[0].page={url: "//a.pl", linktext: "a"};
+nav.nav[1]=new Object();
+nav.nav[1].page={url: "//index.pl", linktext: "Home"};
+nav.nav[2]=new Object();
+nav.nav[2].page={url: "//search.pl", linktext: "Search"};
+nav.chickennav=new Array();
+nav.chickennav[0]=new Object();
+nav.chickennav[0].page={url: "/chicken/index.pl", linktext: "Chicken dishes"};
+nav.chickennav[1]=new Object();
+nav.chickennav[1].page={url: "/chicken/itchsalad.pl", linktext: "Chicken Salad"};
+nav.cocktailsnav=new Array();
+nav.cocktailsnav[0]=new Object();
+nav.cocktailsnav[0].page={url: "/cocktails/GingerAppleVod.pl", linktext: "Ginger Apple Vod"};
+nav.cocktailsnav[1]=new Object();
+nav.cocktailsnav[1].page={url: "/cocktails/index.pl", linktext: "Cocktails"};
+nav.dessertsnav=new Array();
+nav.dessertsnav[0]=new Object();
+nav.dessertsnav[0].page={url: "/desserts/index.pl", linktext: "Desserts"};
+nav.dessertsnav[1]=new Object();
+nav.dessertsnav[1].page={url: "/desserts/test.pl", linktext: "Ice Cream"};
+nav.fishnav=new Array();
+nav.fishnav[0]=new Object();
+nav.fishnav[0].page={url: "/fish/crispyfishcakes.pl", linktext: "Fish Cakes"};
+nav.fishnav[1]=new Object();
+nav.fishnav[1].page={url: "/fish/fishpie.pl", linktext: "Fish Pie"};
+nav.fishnav[2]=new Object();
+nav.fishnav[2].page={url: "/fish/index.pl", linktext: "Fish dishes"};
+nav.fishnav[3]=new Object();
+nav.fishnav[3].page={url: "/fish/thaisalmonsalad.pl", linktext: "Thai Salad"};
+nav.meatnav=new Array();
+nav.meatnav[0]=new Object();
+nav.meatnav[0].page={url: "/meat/index.pl", linktext: "Meat dishes"};
+nav.meatnav[1]=new Object();
+nav.meatnav[1].page={url: "/meat/kofte.pl", linktext: "Kofte"};
+nav.vegetablesnav=new Array();
+nav.vegetablesnav[0]=new Object();
+nav.vegetablesnav[0].page={url: "/vegetables/fetabeans.pl", linktext: "Fine Feta Beans"};
+nav.vegetablesnav[1]=new Object();
+nav.vegetablesnav[1].page={url: "/vegetables/index.pl", linktext: "Veg dishes"};
+
+    </script>
+  </head>
+  
+ <body class="background">
+ <span class="editlinks"></span>
+ <script language="javascript">
+ document.write(getHomepageNav());
+ </script>
+<div class="homepagecontent">
+Hello fellow foodies I'm not a proffesionally chef, just a keen <br />        amateur but I really love cooking and am lucky to have friends who really love eating what I cook.<br />My mum, herself an excellent cook, taught me how to cook when I was little. Mum's style of cooking is both eccentric <br />and traditional. She makes great meat and gravy based dishes, like stroganoff, beauf borgigone (I have no idea how to spell it!), <br />hungarian goulash but her signature dish HAS to be her chicken and mushroom pie.  My mother has a skill for pastry which I've <br />never managed duplicate - maybe when I'm older I'll develop the patience required!<br />I tend to make things up as I go along and fortunately, I normally like what I've made - I've only managed two utter <br />disasters in my culinary adventures - one was a version of chicken satay that you could carve, the other was lard pizza!  <br />I can also advise, never mix tahini with chicken - it's just not a good move.<br />Please feel free to use these recipes, pass them on, adjust them, mess them around - don't be afraid to experiment - <br />what's the worst that can happen? You have to throw it away and get a pizza... and the best - you get the satisfaction <br />of combining basic elements to create something really special.<br />Have fun.<br /><br />Clare       <br />      
+</div>
+</body> 
+</html>
+
+
+Sun Jun 11 14:01:07 2006	FILE:	/index.pl	MESSAGE: Getting HTML layout...
+Sun Jun 11 14:01:07 2006	FILE:	/index.pl	MESSAGE: Content-type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>My home</title>
+    <link rel="stylesheet" href="/styles/coven.css" type="text/css">
+    <script language="JavaScript" src="/script/edit.js"></script>
+    <script type="text/javascript" language="javascript" src="/script/lib.js"></script>
+    <meta name="keywords"       content="desc">
+    <meta name="description"    content="desc">
+    <meta name="author"         content="desc">
+    <script language="javascript">
+      //nav array:
+      var primarynav = new Array();
+var homenav = new Array();primarynav[0] = {url: "/", linktext: "Home", image: "/images/_sml.jpg"};
+homenav[0] = {url: "/", linktext: "Home", image: "/images/.jpg"};
+primarynav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken_sml.jpg"};
+homenav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken.jpg"};
+primarynav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails_sml.jpg"};
+homenav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails.jpg"};
+primarynav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts_sml.jpg"};
+homenav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts.jpg"};
+primarynav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish_sml.jpg"};
+homenav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish.jpg"};
+primarynav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat_sml.jpg"};
+homenav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat.jpg"};
+primarynav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables_sml.jpg"};
+homenav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables.jpg"};
+var nav=new Object();
+nav.nav=new Array();
+nav.nav[0]=new Object();
+nav.nav[0].page={url: "//a.pl", linktext: "a"};
+nav.nav[1]=new Object();
+nav.nav[1].page={url: "//index.pl", linktext: "Home"};
+nav.nav[2]=new Object();
+nav.nav[2].page={url: "//search.pl", linktext: "Search"};
+nav.chickennav=new Array();
+nav.chickennav[0]=new Object();
+nav.chickennav[0].page={url: "/chicken/index.pl", linktext: "Chicken dishes"};
+nav.chickennav[1]=new Object();
+nav.chickennav[1].page={url: "/chicken/itchsalad.pl", linktext: "Chicken Salad"};
+nav.cocktailsnav=new Array();
+nav.cocktailsnav[0]=new Object();
+nav.cocktailsnav[0].page={url: "/cocktails/GingerAppleVod.pl", linktext: "Ginger Apple Vod"};
+nav.cocktailsnav[1]=new Object();
+nav.cocktailsnav[1].page={url: "/cocktails/index.pl", linktext: "Cocktails"};
+nav.dessertsnav=new Array();
+nav.dessertsnav[0]=new Object();
+nav.dessertsnav[0].page={url: "/desserts/index.pl", linktext: "Desserts"};
+nav.dessertsnav[1]=new Object();
+nav.dessertsnav[1].page={url: "/desserts/test.pl", linktext: "Ice Cream"};
+nav.fishnav=new Array();
+nav.fishnav[0]=new Object();
+nav.fishnav[0].page={url: "/fish/crispyfishcakes.pl", linktext: "Fish Cakes"};
+nav.fishnav[1]=new Object();
+nav.fishnav[1].page={url: "/fish/fishpie.pl", linktext: "Fish Pie"};
+nav.fishnav[2]=new Object();
+nav.fishnav[2].page={url: "/fish/index.pl", linktext: "Fish dishes"};
+nav.fishnav[3]=new Object();
+nav.fishnav[3].page={url: "/fish/thaisalmonsalad.pl", linktext: "Thai Salad"};
+nav.meatnav=new Array();
+nav.meatnav[0]=new Object();
+nav.meatnav[0].page={url: "/meat/index.pl", linktext: "Meat dishes"};
+nav.meatnav[1]=new Object();
+nav.meatnav[1].page={url: "/meat/kofte.pl", linktext: "Kofte"};
+nav.vegetablesnav=new Array();
+nav.vegetablesnav[0]=new Object();
+nav.vegetablesnav[0].page={url: "/vegetables/fetabeans.pl", linktext: "Fine Feta Beans"};
+nav.vegetablesnav[1]=new Object();
+nav.vegetablesnav[1].page={url: "/vegetables/index.pl", linktext: "Veg dishes"};
+
+    </script>
+  </head>
+  
+ <body class="background">
+ <span class="editlinks"></span>
+ <script language="javascript">
+ document.write(getHomepageNav());
+ </script>
+<div class="homepagecontent">
+Hello fellow foodies I'm not a proffesionally chef, just a keen <br />        amateur but I really love cooking and am lucky to have friends who really love eating what I cook.<br />My mum, herself an excellent cook, taught me how to cook when I was little. Mum's style of cooking is both eccentric <br />and traditional. She makes great meat and gravy based dishes, like stroganoff, beauf borgigone (I have no idea how to spell it!), <br />hungarian goulash but her signature dish HAS to be her chicken and mushroom pie.  My mother has a skill for pastry which I've <br />never managed duplicate - maybe when I'm older I'll develop the patience required!<br />I tend to make things up as I go along and fortunately, I normally like what I've made - I've only managed two utter <br />disasters in my culinary adventures - one was a version of chicken satay that you could carve, the other was lard pizza!  <br />I can also advise, never mix tahini with chicken - it's just not a good move.<br />Please feel free to use these recipes, pass them on, adjust them, mess them around - don't be afraid to experiment - <br />what's the worst that can happen? You have to throw it away and get a pizza... and the best - you get the satisfaction <br />of combining basic elements to create something really special.<br />Have fun.<br /><br />Clare       <br />      
+</div>
+</body> 
+</html>
+
+
+Sun Jun 11 14:02:30 2006	FILE:	/index.pl	MESSAGE: Getting HTML layout...
+Sun Jun 11 14:02:30 2006	FILE:	/index.pl	MESSAGE: Content-type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>My home</title>
+    <link rel="stylesheet" href="/styles/coven.css" type="text/css">
+    <script language="JavaScript" src="/script/edit.js"></script>
+    <script type="text/javascript" language="javascript" src="/script/lib.js"></script>
+    <meta name="keywords"       content="desc">
+    <meta name="description"    content="desc">
+    <meta name="author"         content="desc">
+    <script language="javascript">
+      //nav array:
+      var primarynav = new Array();
+var homenav = new Array();primarynav[0] = {url: "/", linktext: "Home", image: "/images/_sml.jpg"};
+homenav[0] = {url: "/", linktext: "Home", image: "/images/.jpg"};
+primarynav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken_sml.jpg"};
+homenav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken.jpg"};
+primarynav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails_sml.jpg"};
+homenav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails.jpg"};
+primarynav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts_sml.jpg"};
+homenav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts.jpg"};
+primarynav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish_sml.jpg"};
+homenav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish.jpg"};
+primarynav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat_sml.jpg"};
+homenav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat.jpg"};
+primarynav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables_sml.jpg"};
+homenav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables.jpg"};
+var nav=new Object();
+nav.nav=new Array();
+nav.nav[0]=new Object();
+nav.nav[0].page={url: "//a.pl", linktext: "a"};
+nav.nav[1]=new Object();
+nav.nav[1].page={url: "//index.pl", linktext: "Home"};
+nav.nav[2]=new Object();
+nav.nav[2].page={url: "//search.pl", linktext: "Search"};
+nav.chickennav=new Array();
+nav.chickennav[0]=new Object();
+nav.chickennav[0].page={url: "/chicken/index.pl", linktext: "Chicken dishes"};
+nav.chickennav[1]=new Object();
+nav.chickennav[1].page={url: "/chicken/itchsalad.pl", linktext: "Chicken Salad"};
+nav.cocktailsnav=new Array();
+nav.cocktailsnav[0]=new Object();
+nav.cocktailsnav[0].page={url: "/cocktails/GingerAppleVod.pl", linktext: "Ginger Apple Vod"};
+nav.cocktailsnav[1]=new Object();
+nav.cocktailsnav[1].page={url: "/cocktails/index.pl", linktext: "Cocktails"};
+nav.dessertsnav=new Array();
+nav.dessertsnav[0]=new Object();
+nav.dessertsnav[0].page={url: "/desserts/index.pl", linktext: "Desserts"};
+nav.dessertsnav[1]=new Object();
+nav.dessertsnav[1].page={url: "/desserts/test.pl", linktext: "Ice Cream"};
+nav.fishnav=new Array();
+nav.fishnav[0]=new Object();
+nav.fishnav[0].page={url: "/fish/crispyfishcakes.pl", linktext: "Fish Cakes"};
+nav.fishnav[1]=new Object();
+nav.fishnav[1].page={url: "/fish/fishpie.pl", linktext: "Fish Pie"};
+nav.fishnav[2]=new Object();
+nav.fishnav[2].page={url: "/fish/index.pl", linktext: "Fish dishes"};
+nav.fishnav[3]=new Object();
+nav.fishnav[3].page={url: "/fish/thaisalmonsalad.pl", linktext: "Thai Salad"};
+nav.meatnav=new Array();
+nav.meatnav[0]=new Object();
+nav.meatnav[0].page={url: "/meat/index.pl", linktext: "Meat dishes"};
+nav.meatnav[1]=new Object();
+nav.meatnav[1].page={url: "/meat/kofte.pl", linktext: "Kofte"};
+nav.vegetablesnav=new Array();
+nav.vegetablesnav[0]=new Object();
+nav.vegetablesnav[0].page={url: "/vegetables/fetabeans.pl", linktext: "Fine Feta Beans"};
+nav.vegetablesnav[1]=new Object();
+nav.vegetablesnav[1].page={url: "/vegetables/index.pl", linktext: "Veg dishes"};
+
+    </script>
+  </head>
+  
+ <body class="background">
+ <span class="editlinks"></span>
+ <script language="javascript">
+ document.write(getHomepageNav());
+ </script>
+<div class="homepagecontent">
+Hello fellow foodies I'm not a proffesionally chef, just a keen <br />        amateur but I really love cooking and am lucky to have friends who really love eating what I cook.<br />My mum, herself an excellent cook, taught me how to cook when I was little. Mum's style of cooking is both eccentric <br />and traditional. She makes great meat and gravy based dishes, like stroganoff, beauf borgigone (I have no idea how to spell it!), <br />hungarian goulash but her signature dish HAS to be her chicken and mushroom pie.  My mother has a skill for pastry which I've <br />never managed duplicate - maybe when I'm older I'll develop the patience required!<br />I tend to make things up as I go along and fortunately, I normally like what I've made - I've only managed two utter <br />disasters in my culinary adventures - one was a version of chicken satay that you could carve, the other was lard pizza!  <br />I can also advise, never mix tahini with chicken - it's just not a good move.<br />Please feel free to use these recipes, pass them on, adjust them, mess them around - don't be afraid to experiment - <br />what's the worst that can happen? You have to throw it away and get a pizza... and the best - you get the satisfaction <br />of combining basic elements to create something really special.<br />Have fun.<br /><br />Clare       <br />      
+</div>
+</body> 
+</html>
+
+
+Sun Jun 11 15:43:03 2006	FILE:	/chicken/index.pl	MESSAGE: Getting HTML layout...
+Sun Jun 11 15:43:03 2006	FILE:	/chicken/index.pl	MESSAGE: Content-type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Chicken dishes</title>
+    <link rel="stylesheet" href="/styles/coven.css" type="text/css">
+    <script language="JavaScript" src="/script/edit.js"></script>
+    
+    <meta name="keywords"       content="Chicken dishes">
+    <meta name="description"    content="Chicken dishes">
+    <meta name="author"         content="Chicken dishes">
+    <script language="javascript">
+      //nav array:
+      var primarynav = new Array();
+var homenav = new Array();primarynav[0] = {url: "/", linktext: "Home", image: "/images/_sml.jpg"};
+homenav[0] = {url: "/", linktext: "Home", image: "/images/.jpg"};
+primarynav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken_sml.jpg"};
+homenav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken.jpg"};
+primarynav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails_sml.jpg"};
+homenav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails.jpg"};
+primarynav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts_sml.jpg"};
+homenav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts.jpg"};
+primarynav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish_sml.jpg"};
+homenav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish.jpg"};
+primarynav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat_sml.jpg"};
+homenav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat.jpg"};
+primarynav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables_sml.jpg"};
+homenav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables.jpg"};
+var nav=new Object();
+nav.nav=new Array();
+nav.nav[0]=new Object();
+nav.nav[0].page={url: "//a.pl", linktext: "a"};
+nav.nav[1]=new Object();
+nav.nav[1].page={url: "//index.pl", linktext: "Home"};
+nav.nav[2]=new Object();
+nav.nav[2].page={url: "//search.pl", linktext: "Search"};
+nav.chickennav=new Array();
+nav.chickennav[0]=new Object();
+nav.chickennav[0].page={url: "/chicken/index.pl", linktext: "Chicken dishes"};
+nav.chickennav[1]=new Object();
+nav.chickennav[1].page={url: "/chicken/itchsalad.pl", linktext: "Chicken Salad"};
+nav.cocktailsnav=new Array();
+nav.cocktailsnav[0]=new Object();
+nav.cocktailsnav[0].page={url: "/cocktails/GingerAppleVod.pl", linktext: "Ginger Apple Vod"};
+nav.cocktailsnav[1]=new Object();
+nav.cocktailsnav[1].page={url: "/cocktails/index.pl", linktext: "Cocktails"};
+nav.dessertsnav=new Array();
+nav.dessertsnav[0]=new Object();
+nav.dessertsnav[0].page={url: "/desserts/index.pl", linktext: "Desserts"};
+nav.dessertsnav[1]=new Object();
+nav.dessertsnav[1].page={url: "/desserts/test.pl", linktext: "Ice Cream"};
+nav.fishnav=new Array();
+nav.fishnav[0]=new Object();
+nav.fishnav[0].page={url: "/fish/crispyfishcakes.pl", linktext: "Fish Cakes"};
+nav.fishnav[1]=new Object();
+nav.fishnav[1].page={url: "/fish/fishpie.pl", linktext: "Fish Pie"};
+nav.fishnav[2]=new Object();
+nav.fishnav[2].page={url: "/fish/index.pl", linktext: "Fish dishes"};
+nav.fishnav[3]=new Object();
+nav.fishnav[3].page={url: "/fish/thaisalmonsalad.pl", linktext: "Thai Salad"};
+nav.meatnav=new Array();
+nav.meatnav[0]=new Object();
+nav.meatnav[0].page={url: "/meat/index.pl", linktext: "Meat dishes"};
+nav.meatnav[1]=new Object();
+nav.meatnav[1].page={url: "/meat/kofte.pl", linktext: "Kofte"};
+nav.vegetablesnav=new Array();
+nav.vegetablesnav[0]=new Object();
+nav.vegetablesnav[0].page={url: "/vegetables/fetabeans.pl", linktext: "Fine Feta Beans"};
+nav.vegetablesnav[1]=new Object();
+nav.vegetablesnav[1].page={url: "/vegetables/index.pl", linktext: "Veg dishes"};
+
+    </script>
+    <script language="JavaScript" src="/script/lib.js"></script>
+  </head>
+  <body>
+
+
+    <div class="contentlogo"></div>
+    <div class="contentheader">
+      <div class="thumbheader"><!-- Chicken dishes --></div>
+      <img src="/images/{CMS_CONTENT3}"><!-- thumbnail image -->
+    </div>
+
+    <!-- sub page content -->
+    <div class="content">
+         
+    <div class="pageheader"><!-- <img src="/images/title_chicken.gif"> -->Chicken dishes</div><!-- title -->
+      <span class="col1">
+<font face="Verdana, Arial, Helvetica, sans-serif">
+[placeholder]  <!-- LH text -->
+</font>
+</span>
+<span class="col2">
+{CMS_CONTENT2}  <!-- RH text -->
+</span>
+    </div>
+    
+    <!-- link to homepage -->
+    <div class="homelink"><a href="/" title="Back to homepage"><img src="/images/transpacer.gif" width="150" height="30"></a></div>
+    
+    <!-- LH nav -->
+
+<script language="javascript">
+document.write(getprimarynav("chicken"));
+</script>
+
+    <!-- RH nav -->
+    <div class="contentsubnav">
+    <script>
+      document.write(getNav('chickennav','/chicken/index.pl','Chicken dishes'));
+    </script>
+    <p>
+    <form name="search" method="get" action="/search.pl">
+        Search&nbsp;for: <input type="text" name="qt" value=""><input type="submit" value="go">
+        </form>
+    </div>
+    </p>
+  </body>
+</html>
+
+
+
+Sun Jun 11 15:43:05 2006	FILE:	/chicken/itchsalad.pl	MESSAGE: Getting HTML layout...
+Sun Jun 11 15:43:05 2006	FILE:	/chicken/itchsalad.pl	MESSAGE: Content-type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Italian Chicken Salad</title>
+    <link rel="stylesheet" href="/styles/coven.css" type="text/css">
+    <script language="JavaScript" src="/script/edit.js"></script>
+    
+    <meta name="keywords"       content="Italian, Chicken, Salad">
+    <meta name="description"    content="Italian Chicken Salad">
+    <meta name="author"         content="MIJE">
+    <script language="javascript">
+      //nav array:
+      var primarynav = new Array();
+var homenav = new Array();primarynav[0] = {url: "/", linktext: "Home", image: "/images/_sml.jpg"};
+homenav[0] = {url: "/", linktext: "Home", image: "/images/.jpg"};
+primarynav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken_sml.jpg"};
+homenav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken.jpg"};
+primarynav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails_sml.jpg"};
+homenav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails.jpg"};
+primarynav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts_sml.jpg"};
+homenav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts.jpg"};
+primarynav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish_sml.jpg"};
+homenav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish.jpg"};
+primarynav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat_sml.jpg"};
+homenav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat.jpg"};
+primarynav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables_sml.jpg"};
+homenav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables.jpg"};
+var nav=new Object();
+nav.nav=new Array();
+nav.nav[0]=new Object();
+nav.nav[0].page={url: "//a.pl", linktext: "a"};
+nav.nav[1]=new Object();
+nav.nav[1].page={url: "//index.pl", linktext: "Home"};
+nav.nav[2]=new Object();
+nav.nav[2].page={url: "//search.pl", linktext: "Search"};
+nav.chickennav=new Array();
+nav.chickennav[0]=new Object();
+nav.chickennav[0].page={url: "/chicken/index.pl", linktext: "Chicken dishes"};
+nav.chickennav[1]=new Object();
+nav.chickennav[1].page={url: "/chicken/itchsalad.pl", linktext: "Chicken Salad"};
+nav.cocktailsnav=new Array();
+nav.cocktailsnav[0]=new Object();
+nav.cocktailsnav[0].page={url: "/cocktails/GingerAppleVod.pl", linktext: "Ginger Apple Vod"};
+nav.cocktailsnav[1]=new Object();
+nav.cocktailsnav[1].page={url: "/cocktails/index.pl", linktext: "Cocktails"};
+nav.dessertsnav=new Array();
+nav.dessertsnav[0]=new Object();
+nav.dessertsnav[0].page={url: "/desserts/index.pl", linktext: "Desserts"};
+nav.dessertsnav[1]=new Object();
+nav.dessertsnav[1].page={url: "/desserts/test.pl", linktext: "Ice Cream"};
+nav.fishnav=new Array();
+nav.fishnav[0]=new Object();
+nav.fishnav[0].page={url: "/fish/crispyfishcakes.pl", linktext: "Fish Cakes"};
+nav.fishnav[1]=new Object();
+nav.fishnav[1].page={url: "/fish/fishpie.pl", linktext: "Fish Pie"};
+nav.fishnav[2]=new Object();
+nav.fishnav[2].page={url: "/fish/index.pl", linktext: "Fish dishes"};
+nav.fishnav[3]=new Object();
+nav.fishnav[3].page={url: "/fish/thaisalmonsalad.pl", linktext: "Thai Salad"};
+nav.meatnav=new Array();
+nav.meatnav[0]=new Object();
+nav.meatnav[0].page={url: "/meat/index.pl", linktext: "Meat dishes"};
+nav.meatnav[1]=new Object();
+nav.meatnav[1].page={url: "/meat/kofte.pl", linktext: "Kofte"};
+nav.vegetablesnav=new Array();
+nav.vegetablesnav[0]=new Object();
+nav.vegetablesnav[0].page={url: "/vegetables/fetabeans.pl", linktext: "Fine Feta Beans"};
+nav.vegetablesnav[1]=new Object();
+nav.vegetablesnav[1].page={url: "/vegetables/index.pl", linktext: "Veg dishes"};
+
+    </script>
+    <script language="JavaScript" src="/script/lib.js"></script>
+  </head>
+  <body>
+
+
+    <div class="contentlogo"></div>
+    <div class="contentheader">
+      <div class="thumbheader"><!-- Italian Chicken Salad --></div>
+      <img src="/images/{CMS_CONTENT3}"><!-- thumbnail image -->
+    </div>
+
+    <!-- sub page content -->
+    <div class="content">
+         
+    <div class="pageheader"><!-- <img src="/images/{CMS_CONTENT4}"> -->Italian Chicken Salad</div><!-- title -->
+      <span class="col1">
+<font face="Verdana, Arial, Helvetica, sans-serif">
+Ingredients:<br /><br />Baby spinach leaves, thoroughly washed<br />Big bag of mixed salad leaves including plenty of herbs<br />Blanched fine beans<br />Big bunch of fresh basil<br />Cooked pasta - the twirly ones are nice with this<br />Handfull of freshly grated parmesan cheese<br />Black olives - pitted<br />Fresh black pepper<br />Strips of chicken breast<br />2 cloves of garlic, finely chopped.<br /><br />This is a very easy one:<br />Take one good non-stick pan. Melt in a knob of butter and a little olive oil over a medium head. Add the garlic and fry gently for a minute. Add the chicken and some basil. Fry for around 10 minutes or until the chicken is thoroughly cooked.<br /><br />Then, and this is the tricky part - put all the ingredients into a big bowl with a desert spoon of pesto and mix.  <br /><br />As always - serve with crusty bread and Pinot Grigio.<br /><br />  <!-- LH text -->
+</font>
+</span>
+<span class="col2">
+{CMS_CONTENT2}  <!-- RH text -->
+</span>
+    </div>
+    
+    <!-- link to homepage -->
+    <div class="homelink"><a href="/" title="Back to homepage"><img src="/images/transpacer.gif" width="150" height="30"></a></div>
+    
+    <!-- LH nav -->
+
+<script language="javascript">
+document.write(getprimarynav("chicken"));
+</script>
+
+    <!-- RH nav -->
+    <div class="contentsubnav">
+    <script>
+      document.write(getNav('chickennav','/chicken/itchsalad.pl','Italian Chicken Salad'));
+    </script>
+    <p>
+    <form name="search" method="get" action="/search.pl">
+        Search&nbsp;for: <input type="text" name="qt" value=""><input type="submit" value="go">
+        </form>
+    </div>
+    </p>
+  </body>
+</html>
+
+
+
+Mon Jun 12 18:38:36 2006	FILE:	/index.pl	MESSAGE: Getting HTML layout...
+Mon Jun 12 18:38:36 2006	FILE:	/index.pl	MESSAGE: Content-type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>My home</title>
+    <link rel="stylesheet" href="/styles/coven.css" type="text/css">
+    <script language="JavaScript" src="/script/edit.js"></script>
+    <script type="text/javascript" language="javascript" src="/script/lib.js"></script>
+    <meta name="keywords"       content="desc">
+    <meta name="description"    content="desc">
+    <meta name="author"         content="desc">
+    <script language="javascript">
+      //nav array:
+      var primarynav = new Array();
+var homenav = new Array();primarynav[0] = {url: "/", linktext: "Home", image: "/images/_sml.jpg"};
+homenav[0] = {url: "/", linktext: "Home", image: "/images/.jpg"};
+primarynav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken_sml.jpg"};
+homenav[1] = {url: "/chicken", linktext: "Chicken", image: "/images/chicken.jpg"};
+primarynav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails_sml.jpg"};
+homenav[2] = {url: "/cocktails", linktext: "Cocktails", image: "/images/cocktails.jpg"};
+primarynav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts_sml.jpg"};
+homenav[3] = {url: "/desserts", linktext: "Desserts", image: "/images/desserts.jpg"};
+primarynav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish_sml.jpg"};
+homenav[4] = {url: "/fish", linktext: "Fish", image: "/images/fish.jpg"};
+primarynav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat_sml.jpg"};
+homenav[5] = {url: "/meat", linktext: "Meat", image: "/images/meat.jpg"};
+primarynav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables_sml.jpg"};
+homenav[6] = {url: "/vegetables", linktext: "Vegetables", image: "/images/vegetables.jpg"};
+var nav=new Object();
+nav.nav=new Array();
+nav.nav[0]=new Object();
+nav.nav[0].page={url: "//a.pl", linktext: "a"};
+nav.nav[1]=new Object();
+nav.nav[1].page={url: "//index.pl", linktext: "Home"};
+nav.nav[2]=new Object();
+nav.nav[2].page={url: "//search.pl", linktext: "Search"};
+nav.chickennav=new Array();
+nav.chickennav[0]=new Object();
+nav.chickennav[0].page={url: "/chicken/index.pl", linktext: "Chicken dishes"};
+nav.chickennav[1]=new Object();
+nav.chickennav[1].page={url: "/chicken/itchsalad.pl", linktext: "Chicken Salad"};
+nav.cocktailsnav=new Array();
+nav.cocktailsnav[0]=new Object();
+nav.cocktailsnav[0].page={url: "/cocktails/GingerAppleVod.pl", linktext: "Ginger Apple Vod"};
+nav.cocktailsnav[1]=new Object();
+nav.cocktailsnav[1].page={url: "/cocktails/index.pl", linktext: "Cocktails"};
+nav.dessertsnav=new Array();
+nav.dessertsnav[0]=new Object();
+nav.dessertsnav[0].page={url: "/desserts/index.pl", linktext: "Desserts"};
+nav.dessertsnav[1]=new Object();
+nav.dessertsnav[1].page={url: "/desserts/test.pl", linktext: "Ice Cream"};
+nav.fishnav=new Array();
+nav.fishnav[0]=new Object();
+nav.fishnav[0].page={url: "/fish/crispyfishcakes.pl", linktext: "Fish Cakes"};
+nav.fishnav[1]=new Object();
+nav.fishnav[1].page={url: "/fish/fishpie.pl", linktext: "Fish Pie"};
+nav.fishnav[2]=new Object();
+nav.fishnav[2].page={url: "/fish/index.pl", linktext: "Fish dishes"};
+nav.fishnav[3]=new Object();
+nav.fishnav[3].page={url: "/fish/thaisalmonsalad.pl", linktext: "Thai Salad"};
+nav.meatnav=new Array();
+nav.meatnav[0]=new Object();
+nav.meatnav[0].page={url: "/meat/index.pl", linktext: "Meat dishes"};
+nav.meatnav[1]=new Object();
+nav.meatnav[1].page={url: "/meat/kofte.pl", linktext: "Kofte"};
+nav.vegetablesnav=new Array();
+nav.vegetablesnav[0]=new Object();
+nav.vegetablesnav[0].page={url: "/vegetables/fetabeans.pl", linktext: "Fine Feta Beans"};
+nav.vegetablesnav[1]=new Object();
+nav.vegetablesnav[1].page={url: "/vegetables/index.pl", linktext: "Veg dishes"};
+
+    </script>
+  </head>
+  
+ <body class="background">
+ <span class="editlinks"></span>
+ <script language="javascript">
+ document.write(getHomepageNav());
+ </script>
+<div class="homepagecontent">
+Hello fellow foodies I'm not a proffesionally chef, just a keen <br />        amateur but I really love cooking and am lucky to have friends who really love eating what I cook.<br />My mum, herself an excellent cook, taught me how to cook when I was little. Mum's style of cooking is both eccentric <br />and traditional. She makes great meat and gravy based dishes, like stroganoff, beauf borgigone (I have no idea how to spell it!), <br />hungarian goulash but her signature dish HAS to be her chicken and mushroom pie.  My mother has a skill for pastry which I've <br />never managed duplicate - maybe when I'm older I'll develop the patience required!<br />I tend to make things up as I go along and fortunately, I normally like what I've made - I've only managed two utter <br />disasters in my culinary adventures - one was a version of chicken satay that you could carve, the other was lard pizza!  <br />I can also advise, never mix tahini with chicken - it's just not a good move.<br />Please feel free to use these recipes, pass them on, adjust them, mess them around - don't be afraid to experiment - <br />what's the worst that can happen? You have to throw it away and get a pizza... and the best - you get the satisfaction <br />of combining basic elements to create something really special.<br />Have fun.<br /><br />Clare       <br />      
+</div>
+</body> 
+</html>
+
+
