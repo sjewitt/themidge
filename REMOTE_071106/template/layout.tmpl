@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>{CMS_PAGETITLE}</title>
+<link rel="stylesheet" href="/styles/style.css" type="text/css">
+<script language="JavaScript" src="/script/edit.js"></script>
+<meta name="keywords"       content="{CMS_KEYWORDS}">
+<meta name="description"    content="{CMS_DESCRIPTION}">
+<meta name="author"         content="{CMS_AUTHOR}">
+</head>
+<body>
+  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr height="25">
+        <td class="title" height="0">{CMS_PAGETITLE}</td>
+        <td></td>
+    </tr>
+    {CMS_EDITLINK}
+    <tr>
+        <form name="search" method="get" action="/search.pl">
+        <td class="content">{CMS_HOMELINK}{CMS_TOPNAV}<br />
+        Find: <input type="text" name="qt" value="{CMS_QT}"><input type="submit" value="go">
+        </td>
+        <td width="125" class="menutop" style="vertical-align:top;"></td>
+        </form>
+    </tr>
+    <tr>
+        <td class="content">
+            
+            {CMS_CONTENT1}
+        </td>
+        <td width="125" class="menutop" style="vertical-align:top;">
+            {CMS_LHNAV}
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+        

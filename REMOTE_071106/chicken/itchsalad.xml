@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<doc>
+    <defaults>
+        <defaultpage datatype="core" friendlyname="">index.pl</defaultpage>
+    </defaults>
+    <metadata>
+        <pagetitle datatype="property" friendlyname="Page title">Italian Chicken Salad</pagetitle>
+        <linktext datatype="property" friendlyname="Page linktext">Chicken Salad</linktext>
+        <keywords datatype="property" friendlyname="Keyword list">Italian, Chicken, Salad</keywords>
+        <description datatype="property" friendlyname="Page description">Italian Chicken Salad</description>
+        <author datatype="property" friendlyname="Page author">MIJE</author>
+    </metadata>
+    <content>
+        <content1 datatype="text" friendlyname="Body"><strong>Italian Chicken Salad</strong>A lovely light summer saladIngredients:&bull;Baby spinach leaves, thoroughly washed&bull;Big bag of mixed salad leaves including plenty of herbs&bull;Blanched fine beans&bull;Big bunch of fresh basilCooked pasta - the twirly ones are nice with thisHandfull of freshly grated parmesan cheeseBlack olives - pittedFresh black pepperStrips of chicken breast2 cloves of garlic, finely chopped.This is a very easy one:Take one good non-stick pan. Melt in a knob of butter and a little olive oil over a medium head. Add the garlic and fry gently for a minute. Add the chicken and some basil. Fry for around 10 minutes or until the chicken is thoroughly cooked.Then, and this is the tricky part - put all the ingredients into a big bowl with a desert spoon of pesto and mix.  As always - serve with crusty bread and Pinot Grigio.</content1>
+        
+    </content>
+</doc>

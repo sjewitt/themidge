@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<doc>
+    <defaults>
+        <defaultpage datatype="core" friendlyname="">index</defaultpage>
+        <currentdirectory></currentdirectory>
+        <owner>{CMS_OWNER}</owner>
+    </defaults>
+    <metadata>
+        <pagetitle datatype="property" friendlyname="Page title">Desserts</pagetitle>
+        <linktext datatype="property" friendlyname="Page linktext">Desserts</linktext>
+        <keywords datatype="property" friendlyname="Keyword list">Desserts</keywords>
+        <description datatype="property" friendlyname="Page description">Desserts</description>
+        <author datatype="property" friendlyname="Page author">Desserts</author>
+    </metadata>
+    <content>
+        <content1 datatype="text" friendlyname="Body">I'm not very good a  desserts. I tend to cook too much of the main course which means dessert has to be something that can be put back in the fridge or freezer until tomorrow...</content1>
+        
+    </content>
+</doc>

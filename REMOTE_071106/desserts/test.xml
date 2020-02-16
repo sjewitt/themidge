@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<doc>
+    <defaults>
+        <defaultpage datatype="core" friendlyname="">index.pl</defaultpage>
+    </defaults>
+    <metadata>
+        <pagetitle datatype="property" friendlyname="Page title">Ice Cream</pagetitle>
+        <linktext datatype="property" friendlyname="Page linktext">Ice Cream</linktext>
+        <keywords datatype="property" friendlyname="Keyword list">Ice,Cream</keywords>
+        <description datatype="property" friendlyname="Page description">Ice Cream</description>
+        <author datatype="property" friendlyname="Page author">MIJE</author>
+    </metadata>
+    <content>
+        <content1 datatype="text" friendlyname="Body">Go out, buy 2 large pots of ben and jerry's half baked.Then make a large chocolate sponge cake.Serve with ice-cream.</content1>
+        
+    </content>
+</doc>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<doc>
+    <defaults>
+        <defaultpage datatype="core" friendlyname="">index.pl</defaultpage>
+    </defaults>
+    <metadata>
+        <pagetitle datatype="property" friendlyname="Page title">Hot Choc Hic</pagetitle>
+        <linktext datatype="property" friendlyname="Page linktext">Hot Choc Hic</linktext>
+        <keywords datatype="property" friendlyname="Keyword list">hot, choc, chocolate, hic, brandy, </keywords>
+        <description datatype="property" friendlyname="Page description">Hot Choc Hic</description>
+        <author datatype="property" friendlyname="Page author">clare</author>
+    </metadata>
+    <content>
+        <content1 datatype="text" friendlyname="Body">Makes 4 mugs:2 pts milk8 heaped teaspoons cocoa4 heaped teaspoons brown sugarPinch of fresh nutmegPinch of cinnamon1/2 pt brandyMake cocoa - add brandy - go to bed, drink, fall asleep... hmmmmm... </content1>
+        
+    </content>
+</doc>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<doc>
+    <defaults>
+        <defaultpage datatype="core" friendlyname="">index.pl</defaultpage>
+    </defaults>
+    <metadata>
+        <pagetitle datatype="property" friendlyname="Page title">Ginger Apple Vod</pagetitle>
+        <linktext datatype="property" friendlyname="Page linktext">Ginger Apple Vod</linktext>
+        <keywords datatype="property" friendlyname="Keyword list">Ginger, Beer, Apple, Crushed, Vodka, </keywords>
+        <description datatype="property" friendlyname="Page description">Ginger Apple Vod</description>
+        <author datatype="property" friendlyname="Page author">Mije</author>
+    </metadata>
+    <content>
+        <content1 datatype="text" friendlyname="Body">This is a great fresh cocktail. This makes a jug containing around 4 servings.
+
+Ingredients:
+1/2 pint organic pressed apple juice
+1/2 pint fiery ginger beer
+8 shots good quality vodka
+juice of half a lime
+sprig of mint
+4 thin slices of fresh ginger
+4 wedges of lime
+4 thin slices of apple
+
+Put it all in a big jug and stir.
+
+Fill 4 glasses with ice. Pour in the glasses. Put glass gently to lips, drink. Repeat several times. Fall over.
+</content1>
+        
+    </content>
+</doc>

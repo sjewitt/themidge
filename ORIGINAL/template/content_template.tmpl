@@ -1,0 +1,55 @@
+#!/usr/bin/perl
+#send HTTP content type:
+print "Content-type: text/html\r\n\r\n";
+
+
+$document_root = $ENV{'DOCUMENT_ROOT'};
+if(length($document_root) == 0){$document_root = "C:\/DEV\/webtest\/";}
+$incfile = $document_root . "include/subs.pl";
+require $incfile;
+
+
+#sub getRoot
+#{
+#    my $document_root = $ENV{'DOCUMENT_ROOT'};
+#    if(length($document_root) == 0) #if WIN
+#    {
+#        $document_root = "C:\/DEV\/webtest\/";  #this is local dev path.
+#    }
+#    return $document_root;
+#}
+
+
+
+#set some variables:
+$filecontent;
+
+$HEADERFILE = "header.tmpl";
+$FOOTERFILE = "footer.tmpl";
+$tRoot = getRoot();
+open thisfile_header, $tRoot . "template\/header.tmpl";
+open thisfile_footer, $tRoot . "template\/footer.tmpl";
+
+#read lines from file:
+while( <thisfile_header> )  #this syntax gets the input line.
+{
+    $filecontent .= $_ ;
+}
+close thisfile_header;
+$content = "Some body content. This will be CMS eventually...<br/>";
+$filecontent .= "<td width=\"180\" valign=\"top\">";
+$filecontent .= nav() . "</td>";
+
+$filecontent .= "<td valign=\"top\">";
+$filecontent .= $content;
+$filecontent .= "</td>";
+
+#read lines from file:
+while( <thisfile_footer> )
+{
+    $filecontent .= $_ ;
+}
+close thisfile_footer;
+
+#render content of file:
+print $filecontent;

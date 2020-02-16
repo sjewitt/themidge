@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<doc>
+    <defaults>
+        <defaultpage datatype="core" friendlyname="">index</defaultpage>
+        <currentdirectory></currentdirectory>
+        <owner>{CMS_OWNER}</owner>
+    </defaults>
+    <metadata>
+        <pagetitle datatype="property" friendlyname="Page title">Cocktails</pagetitle>
+        <linktext datatype="property" friendlyname="Page linktext">Cocktails</linktext>
+        <keywords datatype="property" friendlyname="Keyword list">Cocktails</keywords>
+        <description datatype="property" friendlyname="Page description">Cocktails</description>
+        <author datatype="property" friendlyname="Page author">Cocktails</author>
+    </metadata>
+    <content>
+        <content1 datatype="text" friendlyname="Body">We all know, booze is great. And what's better than mixing up your favourite tipples with a fresh juices and herbs. Go on - play around - drink irresponsibly! </content1>
+        
+    </content>
+</doc>

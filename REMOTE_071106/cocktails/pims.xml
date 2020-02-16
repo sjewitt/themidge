@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<doc>
+    <defaults>
+        <defaultpage datatype="core" friendlyname="">index.pl</defaultpage>
+    </defaults>
+    <metadata>
+        <pagetitle datatype="property" friendlyname="Page title">Pimms Plus</pagetitle>
+        <linktext datatype="property" friendlyname="Page linktext">Pimms Plus</linktext>
+        <keywords datatype="property" friendlyname="Keyword list">Pimms</keywords>
+        <description datatype="property" friendlyname="Page description">Pimms Plus</description>
+        <author datatype="property" friendlyname="Page author">clare</author>
+    </metadata>
+    <content>
+        <content1 datatype="text" friendlyname="Body">We all love Pimms and lemonade in summer - but here's a great way of making an already excellent tipple, just bit more spicey...Ingredients:1/2 pt Pimms50cl absolut vodka Juice of 1/2 lime1pt traditional lemonade1/4 pt pressed apple juice1/4 pt fiery ginger beerhandful of pint8 slices of cucumber1 apple, cut into 8 piecesteaspoon brown sugar6 strawberries, slicedPop into a huge jug with lots of ice.Drink through a straw.Don't forget to eat the yummy bits</content1>
+        
+    </content>
+</doc>

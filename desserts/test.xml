@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<doc>
+    <defaults>
+        <defaultpage datatype="core" friendlyname="">index.pl</defaultpage>
+    </defaults>
+    <metadata>
+        <pagetitle datatype="property" friendlyname="Page title">Ice Cream</pagetitle>
+        <linktext datatype="property" friendlyname="Page linktext">Ice Cream</linktext>
+        <keywords datatype="property" friendlyname="Keyword list">Ice,Cream</keywords>
+        <description datatype="property" friendlyname="Page description">Ice Cream</description>
+        <author datatype="property" friendlyname="Page author">MIJE</author>
+    </metadata>
+    <content>
+        <content1 datatype="text" friendlyname="Body">test<img src="/images/menu_end.gif"></content1>
+        
+    </content>
+</doc>

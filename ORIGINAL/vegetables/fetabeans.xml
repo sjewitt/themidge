@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<doc>
+    <defaults>
+        <defaultpage datatype="core" friendlyname="">index.pl</defaultpage>
+    </defaults>
+    <metadata>
+        <pagetitle datatype="property" friendlyname="Page title">Fine Feta Beans</pagetitle>
+        <linktext datatype="property" friendlyname="Page linktext">Fine Feta Beans</linktext>
+        <keywords datatype="property" friendlyname="Keyword list">feta, beans, </keywords>
+        <description datatype="property" friendlyname="Page description">feta beans</description>
+        <author datatype="property" friendlyname="Page author">mije</author>
+    </metadata>
+    <content>
+        <body>Vaguely introduce a pack of trimmed fine green beans to hot water with a little salt.
+
+Roughly chop a block of feta cheese. 
+
+Drain the beans and put into a bowl with the feta, a generous glug of extra virgin olive oil and a handful of chopped fresh basil. Delicious.</body>
+        <other>{CMS_ALTCONTENT}</other>
+    </content>
+</doc>
